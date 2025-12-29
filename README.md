@@ -1,29 +1,23 @@
 # Analisis Efisiensi Algoritma Fibonacci
 
-Proyek ini bertujuan untuk menganalisis dan membandingkan **efisiensi algoritma Fibonacci iteratif dan rekursif** berdasarkan **waktu eksekusi** dan **kompleksitas komputasi**.
+Proyek ini membandingkan **algoritma Fibonacci iteratif dan rekursif** berdasarkan **waktu eksekusi**.
 
-## 📖 Deskripsi Singkat
-Notebook ini mengimplementasikan dua pendekatan perhitungan bilangan Fibonacci:
-- **Metode Iteratif**
-- **Metode Rekursif**
+## Deskripsi
+Notebook mengimplementasikan metode iteratif dan rekursif, lalu mengukur waktu eksekusinya untuk beberapa nilai `n`. Hasil pengujian ditampilkan dalam bentuk grafik.
 
-Pengujian dilakukan dengan mengukur waktu eksekusi untuk setiap nilai `n`, kemudian hasilnya divisualisasikan dalam bentuk grafik.
+## Library
+- time  
+- numpy  
+- matplotlib  
+- tabulate  
 
-## 🛠️ Library yang Digunakan
-- `time`
-- `numpy`
-- `matplotlib`
-- `tabulate`
+## Hasil
+Metode **iteratif lebih efisien**, sedangkan metode **rekursif lebih lambat** seiring bertambahnya nilai `n`.
 
-## 📊 Hasil Analisis
-- Algoritma **iteratif** memiliki waktu eksekusi yang jauh lebih efisien.
-- Algoritma **rekursif** mengalami peningkatan waktu yang signifikan seiring bertambahnya nilai `n`.
-- Visualisasi grafik memperlihatkan perbedaan performa yang jelas antara kedua metode.
+## Anggota Kelompok
+1. Aditya Dwi Aryanto (103132400027)  
+2. Fauzi Romadhoni (103132400025)  
+3. Khairun Fahmi (103132400035)  
 
-## 👥 Anggota Kelompok
-1. Aditya Dwi Aryanto (103132400027) 
-2. Fauzi Romadhoni (103132400025) 
-3. Khairun Fahmi (103132400035)
-
-## 📁 File
-- `tubes_AKA.ipynb` : Implementasi algoritma dan analisis efisiensi Fibonacci
+## File
+- `tubes_AKA.ipynb`
